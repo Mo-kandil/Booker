@@ -1,0 +1,243 @@
+  <!-- carousel -->
+<ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[0]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[1]" alt="Random second slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[2]" alt="Random third slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+
+    <!-- 1st section -->
+  <section class="about p-5  bg-light bg-gradient">
+      <div class="container  d-flex">
+        <div class="box ">
+            <div class="ico">
+                <i class="far fa-hand-peace fa-4x"></i>
+            </div>
+            <div>
+                <h5>Endless Possibilities</h5>
+                <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit.Aenean commodo ligula eget dolor. Aenean massa.</p>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="ico">
+                <i class="far fa-hand-paper fa-4x"></i>
+            </div>
+            <div class="">
+                <h5>Endless Possibilities</h5>
+                <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit.Aenean commodo ligula eget dolor. Aenean massa.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="ico">
+                <i class="far fa-hand-rock fa-4x"></i>
+            </div>
+            <div>
+                <h5>Endless Possibilities</h5>
+                <p>Lorem ipsum dolor sit amet,consectetuer adipiscing elit.Aenean commodo ligula eget dolor. Aenean massa.</p>
+            </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- 2nd section -->
+<section id="aboutus" class="second d-flex ">
+  
+  <div class="container">
+    <div class="row justify-content-around">
+      <div class="col-md-5 fs">
+        <h4>Our Company</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Curabitur pellentesque neque eget diam posuere porta.
+            Quisque ut nulla at nunc vehicula lacinia. Proin adipiscing porta tellus,
+            ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus.<br><br>
+            
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+              In eu libero ligula. Quisque ut nulla at nunc vehicula lacinia.</p>
+      </div>
+      <div>
+        <h4>Our Expertise</h4>
+        <div class="">
+        <p class="po"><ngb-progressbar type="primary" [value]="25" height="25px">Web Design</ngb-progressbar></p>
+        <p><ngb-progressbar type="danger" [value]="50" height="25px">Anguler</ngb-progressbar></p>
+        <p><ngb-progressbar type="success" [value]="75" height="25px">NodeJs</ngb-progressbar></p>
+        <p><ngb-progressbar type="warning" [value]="100" height="25px">JavaScript</ngb-progressbar></p>
+      </div>
+      </div>
+        </div>
+    </div>
+  
+</section>
+
+<!-- 3rd section -->
+<section class="third d-flex">
+    <div class="container">
+      <div class="mb-3">
+      <h4>Our Services</h4>
+      </div>
+      <div class=" fs justify-content-around">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-body cardz">
+                <div class="cardz">
+                  <i class="fas fa-lightbulb fa-4x"></i>
+              </div>
+                <h5 class="card-title">Generating Ideas</h5>
+                <p class="card-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-body cardz">
+                <div class="cardz">
+                  <i class="fas fa-keyboard fa-4x"></i>
+              </div>
+                <h5 class="card-title">Prototype Model</h5>
+                <p class="card-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-body cardz">
+                <div class="cardz">
+                  <i class="fas fa-hand-peace fa-4x"></i>
+              </div>
+                <h5 class="card-title">Design And Code</h5>
+                <p class="card-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card">
+              <div class="card-body cardz">
+                <div class="cardz">
+                  <i class="fas fa-rocket fa-4x"></i>
+              </div>
+                <h5 class="card-title">Launching And Monitoring</h5>
+                <p class="card-text">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris .</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</section>
+
+<!-- 4th section -->
+
+<section class="d-flex four">
+  <div class="container fs">
+    <div class="box m-5">
+    <div class="col-sm-7 ">
+      <H5>Performance And Design For Your Business</H5>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+      </p>
+    </div>
+
+    <div class="ss">
+      <ngb-carousel *ngIf="images" [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+        <ng-template ngbSlide *ngFor="let image of images">
+          <div class="picsum-img-wrapper sx ">
+            <img [src]="image" alt="Random slide">
+          </div>
+          
+        </ng-template>
+      </ngb-carousel>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- adding youtube -->
+<section class="vid ">
+  <div class="container">
+    <div class="box m-3">
+      <div class="col-sm-7 text-center">
+        <h1>Change Your Self</h1>
+        <youtube-player 
+          videoId="TnWwDYbgweg" 
+          suggestedQuality="highres" 
+          [height]="350" 
+          [width]="500" 
+          [startSeconds]="1"
+          [endSeconds]="60">
+        </youtube-player>
+      </div>
+      <div class="col-sm-5 ">
+        <H5>Just a Three Minutes Can Change You</H5>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  
+  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact us -->
+<section id="contact">
+  <div class="container">
+    <div class="row justify-content-center mb-4 my-4">
+      <div class="h-font">
+      <h2>Contact Us</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-5 ">
+        <div class="mb-30">
+          <form>
+            <input type="text" name="name" placeholder="Your name">
+            <input type="email" name="email" placeholder="Your email">
+            <input type="text" name="subject" placeholder="Your subject">
+            <textarea name="message" placeholder="Your message"></textarea>
+            <button type="submit">send message</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-auto">
+        <div class="info-p mb-30">
+          <p>GET IN TOUCH</p>
+          <a href="#">16/A, Maadi City<br>
+            Cairo, Egypt</a>
+        </div>
+        <div class="info-p mb-30">
+          <p>SENT MAIL AND MAKE CALL</p>
+          <a href="#">someone@example.com<br>
+            +786 75723 68271</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

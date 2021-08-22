@@ -1,0 +1,85 @@
+<div class="nav d-flex">
+    <div class="container">
+        <div class="row">    
+            <div class="col-md-6">    
+                <h4>Sign up</h4>
+            </div>
+            <div class="col-md-6">    
+                <ol class="row">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Sing up</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    </div>
+<section class="sec">
+    <div class="ndsec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mais">
+                    <div class="form-header">
+                        <p>Register Account</p>
+                    </div>
+                    <div class="form-body">
+                    <form [formGroup]="regForm">
+                    <div class="stlab">
+                        <label for="email">Email</label>
+                        <input 
+                        type="email" 
+                        formControlName="email"
+                        ngbTooltip="This field for email"
+                        [openDelay]="300" [closeDelay]="500">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input 
+                        type="password" 
+                        formControlName="password">
+                        <div *ngIf="(password?.invalid && (password?.touched||password?.dirty))||(password?.invalid && isSubmitted)" class="alert border-danger btn-outline-danger my-3 war">
+                        
+                            <div *ngIf="password?.errors?.required">
+                                please enter your password
+                            </div>
+                            <div *ngIf="password?.errors?.minlength">
+                                invalid must be more than 6 chars
+                            </div>
+                            
+                            <div *ngIf="password?.errors?.maxlength">
+                                invalid must be less than 20 chars
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-1">
+                        <label for="ConfirmPassword">Confirm Password</label>
+                        <input 
+                        type="password" 
+                        formControlName="confirmPassword">
+                        <div *ngIf="(confPassword?.invalid && (confPassword?.touched||confPassword?.dirty))||(confPassword?.invalid && isSubmitted)" class="alert border-danger btn-outline-danger my-3 war">
+                            <div *ngIf="confPassword?.errors?.required">
+                                please Re-enter your password
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+
+                    <div class="my-2">
+                        <button type="button" class="btn btn-success btn-s btn-icon-right btn-sign-in pull-right">
+                            <span>Register</span>
+                        </button>
+                    </div>
+                    
+                    
+                </div>
+                <div class="form-footer">
+                    <p>Sign Up with <a href="#">Google</a></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
