@@ -1,7 +1,8 @@
 .box {
   display: flex;
   flex-direction: row;
-  padding-left: 17px;
+  align-items: center;
+  justify-content: center;
 }
 p {
   line-height: 22px;
@@ -39,14 +40,13 @@ h4 {
 .four {
   background-color: #fcfcfc;
 }
+
 .ss {
-  height: 200px;
+  flex: 1;
+  max-width: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.sx {
-  width: 500px;
-  height: 250px;
-}
+
 .vid {
   padding: 20px;
   border-top: 1px solid #e0eded;

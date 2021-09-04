@@ -44,6 +44,11 @@
   cursor: pointer;
   margin-bottom: 5px;
 }
+.list a:hover{
+  background-color: #d9d9d9;
+  border-radius: 5%;
+  padding: 5px;
+}
 ol {
   float: right;
   background: transparent;
@@ -166,4 +171,9 @@ button:hover {
   border: 1px solid #aedaa6;
   color: #aedaa6;
   cursor: pointer;
+}
+.pagination{
+  background-color: #e0eded;
+  justify-content: center;
+  padding: 15px 0;
 }

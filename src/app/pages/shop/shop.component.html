@@ -4,10 +4,9 @@
 </section>
 <section class="full">
     <div class="container">
-        <div class="nav d-flex py-2">
+        <div class="nav py-2">
             <div class="container">
                 <div class="row">    
-                    
                     <div class="md-6">    
                         <ol class="row">
                             <li>
@@ -27,7 +26,7 @@
 
 <section>
   
-    <div class="nav-2 d-flex py-2">
+    <div class="nav-2 py-2">
         <div class="container">
             <div class="row">    
               <div class="col-md-6">    
@@ -50,9 +49,12 @@
     </div>
 </section>
 
-<section class="shop-bg">
-  <div class="container row justify-content-flex-center">
-    <div class="card m-3 col-auto"*ngFor="let card of cards">
+<section class="shop-bg d-flex">
+  <table class="container row justify-content-flex-center">
+    <tr *ngFor="let item of cards | slice: (page-1) * 5 : page * 5">
+      
+  <div >
+    <div class="card m-3 col-auto">
       <nav>
         <svg class="arrow" version="1.1" viewBox="0 0 512 512" ><polygon points="352,115.4 331.3,96 160,256 331.3,416 352,396.7 201.5,256 " stroke="#727272"/></svg>
         Reviews
@@ -62,12 +64,21 @@
         <img src="https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w">
       </div>
       <div class="description">
-        <h2>{{card.title}}</h2>
+        <h2>{{item.title}}</h2>
         <h4>By Mike Johnson</h4>
-        <h1>{{card.price}}</h1>
+        <h1>{{item.price}}</h1>
         <button >Add to Cart</button>
         <button>Wishlist</button>
       </div>
     </div>
   </div>
+  </tr>
+</table>
 </section>
+
+<div class="pagination ">
+  <ngb-pagination
+  [(page)]="page"
+  [pageSize]="5"
+  [collectionSize]="cards.length"></ngb-pagination>
+</div>
