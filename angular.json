@@ -31,9 +31,7 @@
               "src/assets"
             ],
             "styles": [
-              "bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css",
-              "@fortawesome/fontawesome-free/css/all.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -96,7 +94,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -127,6 +125,11 @@
           }
         }
       }
+    }
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
     }
   },
   "defaultProject": "myTheme"

@@ -1,17 +1,29 @@
 import { Component, OnInit } from '@angular/core';
+import { GlobalService } from 'src/app/global.service';
 
 @Component({
   selector: 'app-shop',
   templateUrl: './shop.component.html',
   styleUrls: ['./shop.component.css']
 })
-export class ShopComponent implements OnInit {
 
-  constructor() { 
+export class ShopComponent implements OnInit {
+  onActivate() {
+    try 
+    { 
+     window.scrollTo({ left: 0, top: 0, behavior: 'smooth' });
+     } catch (e) {
+      window.scrollTo(0, 0);
+    }
+};
+
+  constructor(public _global:GlobalService) { 
+    _global.navStatus=false
     
   }
   page=1;
   
+
   cards=[
     {
       "title":"JavaScript",
@@ -62,8 +74,18 @@ export class ShopComponent implements OnInit {
       "title":"MongoDB",
       "price":"$100",
       "thumbnailUrl": "https://via.placeholder.com/150/810b14"
-    },]
+    },{
+      "title":"Sass",
+      "price":"$110",
+      "thumbnailUrl": "https://via.placeholder.com/150/810b14"
+    },{
+      "title":"Scss",
+      "price":"$120",
+      "thumbnailUrl": "https://via.placeholder.com/150/810b14"
+    },
+  ]
     
     ngOnInit(): void {
     }
 }
+

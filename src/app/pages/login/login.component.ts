@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { GlobalService } from 'src/app/global.service';
 
 @Component({
   selector: 'app-login',
@@ -21,7 +22,9 @@ export class LoginComponent implements OnInit {
   
   isSubmitted:boolean=false
 
-  constructor() { }
+  constructor(public _global:GlobalService) { 
+    _global.navStatus=false
+  }
 
   ngOnInit(): void {
   }

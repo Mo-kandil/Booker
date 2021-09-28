@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { GlobalService } from 'src/app/global.service';
 
 @Component({
   selector: 'app-register',
@@ -26,8 +27,11 @@ export class RegisterComponent implements OnInit {
   
   isSubmitted:boolean=false
 
-  constructor() { }
+  constructor(public _global:GlobalService) { 
+    _global.navStatus=false
+  }
 
+  
   ngOnInit(): void {
   }
   get email(){return this.regForm.get('email')}

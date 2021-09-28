@@ -94,7 +94,7 @@ nav {
   color: #727272;
   text-transform: uppercase;
   padding: 20px;
-  border-bottom: 1px solid #efefef;
+  
   font-size: 12px;
 }
 
@@ -106,10 +106,12 @@ svg.heart {
   transition: all 0.3s ease;
   cursor: pointer;
 }
-svg:hover {
+svg.heart:hover {
   fill: red;
 }
-
+svg.arrow:hover {
+  fill: green;
+}
 svg.arrow {
   float: left;
   height: 15px;
@@ -126,7 +128,6 @@ img {
 .description {
   padding: 20px;
   width: 100%;
-  border-left: 2px solid #efefef;
 }
 h1 {
   color: #515151;

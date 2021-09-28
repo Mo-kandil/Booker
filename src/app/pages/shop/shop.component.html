@@ -51,7 +51,7 @@
 
 <section class="shop-bg d-flex">
   <table class="container row justify-content-flex-center">
-    <tr *ngFor="let item of cards | slice: (page-1) * 5 : page * 5">
+    <tr *ngFor="let item of cards | slice: (page-1) * cards.length/2 : page * cards.length/2">
       
   <div >
     <div class="card m-3 col-auto">
@@ -79,6 +79,8 @@
 <div class="pagination ">
   <ngb-pagination
   [(page)]="page"
-  [pageSize]="5"
-  [collectionSize]="cards.length"></ngb-pagination>
+  [pageSize]="6"
+  [collectionSize]="cards.length"
+  (pageChange)="onActivate()">
+  </ngb-pagination>
 </div>

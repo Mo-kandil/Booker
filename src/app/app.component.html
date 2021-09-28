@@ -1,3 +1,5 @@
-<app-nav></app-nav>
-<router-outlet></router-outlet>
+<app-nav *ngIf="_globalService.navStatus"></app-nav>
+<router-outlet>
+    <!-- <div *ngIf="showLoading" class="loader"></div> -->
+</router-outlet>
 <app-footer></app-footer>
