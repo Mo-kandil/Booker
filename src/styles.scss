@@ -1,3 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~@fortawesome/fontawesome-free/css/all.css';
+body::-webkit-scrollbar {
+    width: 15px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(229, 229, 255);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #7b7bff;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid #777777;  /* creates padding around scroll thumb */
+  }

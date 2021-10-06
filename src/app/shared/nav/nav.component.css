@@ -7,11 +7,13 @@ html {
   border-bottom: 1px solid #dadada;
   padding: 0;
   transition: 1s;
-  
 }
 .nav_change{
   opacity: 0;
+  visibility: hidden;
+  transition: 1s;
 }
+
 .navbar.hide-nav{
   display: none;
   background-color: black;
@@ -31,7 +33,7 @@ h2 {
   text-transform: uppercase;
 }
 .oospan {
-  color: red;
+  color: #3498db;
 }
 .icons {
   border-top: 3px solid transparent;

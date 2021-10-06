@@ -19,7 +19,6 @@ export class ShopComponent implements OnInit {
 
   constructor(public _global:GlobalService) { 
     _global.navStatus=false
-    
   }
   page=1;
   
