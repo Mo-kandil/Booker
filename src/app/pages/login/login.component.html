@@ -1,10 +1,10 @@
 <div class="nav d-flex">
     <div class="container">
         <div class="row">    
-            <div class="col-md-6">    
+            <div class="col-6">    
                 <h4>Sign In</h4>
             </div>
-            <div class="col-md-6">    
+            <div class="col-6">    
                 <ol class="row">
                     <li>
                         <a href="#">Home</a>
@@ -25,52 +25,54 @@
                     <div class="form-header">
                         <p>Sign in to your account</p>
                     </div>
-                    <div class="form-body">
-                    <form [formGroup]="loginForm">
-                    <div class="stlab">
-                        <label for="email">Email</label>
-                        <input 
-                        type="email" 
-                        formControlName="email"
-                        ngbTooltip="This field for email"
-                        [openDelay]="300" [closeDelay]="500">
-                    </div>
-                    <div>
-                        <label for="password">Password</label>
-                        <input 
-                        type="password" 
-                        formControlName="password">
-                        <div *ngIf="(password?.invalid && (password?.touched||password?.dirty))||(password?.invalid && isSubmitted)" class="alert border-danger btn-outline-danger my-3 war">
-                            <div *ngIf="password?.errors?.required">
-                                please enter your password
-                            </div>
-                            <div *ngIf="password?.errors?.minlength">
-                                invalid must be more than 6 chars
+                    
+                    <div class="form-body ">
+                        <form [formGroup]="loginForm">
+                            <div class="stlab form-group first">
+                                <label for="email">Email</label>
+                                <input 
+                                class="form-control"
+                                type="email" 
+                                formControlName="email"
+                                ngbTooltip="This field for email"
+                                [openDelay]="300" [closeDelay]="500">
                             </div>
                             
-                            <div *ngIf="password?.errors?.maxlength">
-                                invalid must be less than 20 chars
+                            <div class="form-group last mb-4">
+                                <label for="password">Password</label>
+                                <input
+                                class="form-control"
+                                type="password" 
+                                formControlName="password">
+                                <div *ngIf="(password?.invalid && (password?.touched||password?.dirty))||(password?.invalid && isSubmitted)" class="alert border-danger btn-outline-danger my-3 war">
+                                    <div *ngIf="password?.errors?.required">
+                                        please enter your password
+                                    </div>
+                                    <div *ngIf="password?.errors?.minlength">
+                                        invalid must be more than 6 chars
+                                    </div>
+                                    
+                                    <div *ngIf="password?.errors?.maxlength">
+                                        invalid must be less than 20 chars
+                                    </div>
+                                </div>
                             </div>
+                        </form>
+
+                        <div class="ckbx col-md-12 py-3">
+                            <input type="checkbox" class="ss form-check-input"> 
+                            Keep me Logged in
+                        </div>
+
+                        <div>
+                            <button type="button" class="btn btn-primary btn-s btn-icon-right btn-sign-in pull-right">
+                                <span>Log In</span>
+                            </button>
                         </div>
                     </div>
-                    </form>
-
-                    <div class="ckbx col-md-12 py-3">
-                        <input type="checkbox" class="ss form-check-input"> 
-                        Keep me Logged in
+                    <div class="form-footer">
+                        <p>Lost your password? <a href="#">Click here to recover.</a></p>
                     </div>
-
-                    <div>
-                        <button type="button" class="btn btn-primary btn-s btn-icon-right btn-sign-in pull-right">
-                            <span>Log In</span>
-                        </button>
-                    </div>
-
-                    
-                </div>
-                <div class="form-footer">
-                    <p>Lost your password? <a href="#">Click here to recover.</a></p>
-                </div>
                 </div>
             </div>
         </div>

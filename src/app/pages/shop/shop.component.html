@@ -51,7 +51,7 @@
 
 <section class="shop-bg d-flex">
   <table class="container row justify-content-flex-center">
-    <tr *ngFor="let item of cards | slice: (page-1) * cards.length/2 : page * cards.length/2">
+    <tr *ngFor="let item of cardd | slice: (page-1) * cardd.length/2 : page * cardd.length/2">
       
   <div >
     <div class="card m-3 col-auto">
@@ -63,11 +63,11 @@
       <div class="photo">
         <img src="https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w">
       </div>
-      <div class="description">
-        <h2>{{item.title}}</h2>
+      <div  class="description">
+        <h2 >{{ this.item.title }}</h2>
         <h4>By Mike Johnson</h4>
-        <h1>{{item.price}}</h1>
-        <button >Add to Cart</button>
+        <h1>{{this.item.price}}</h1>
+        <button [routerLink]="['/shopCart']" (click)="OnclickCard(item)">Add to Cart</button>
         <button>Wishlist</button>
       </div>
     </div>
@@ -80,7 +80,7 @@
   <ngb-pagination
   [(page)]="page"
   [pageSize]="6"
-  [collectionSize]="cards.length"
+  [collectionSize]="cardd.length"
   (pageChange)="onActivate()">
   </ngb-pagination>
 </div>

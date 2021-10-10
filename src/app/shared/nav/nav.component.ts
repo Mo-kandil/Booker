@@ -11,7 +11,11 @@ export class NavComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  navbarOpen = false;
 
+  toggleNavbar() {
+    this.navbarOpen = !this.navbarOpen;
+  }
   nav_variable=false;
   @HostListener("document:scroll")
   scrollfunction(){

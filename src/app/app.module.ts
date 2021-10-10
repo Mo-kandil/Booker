@@ -11,7 +11,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
-import { ShopComponent } from './pages/shop/shop.component'
+import { ShopComponent } from './pages/shop/shop.component';
+import { ShopCartComponent } from './pages/shop/shop-cart/shop-cart.component'
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { ShopComponent } from './pages/shop/shop.component'
     FooterComponent,
     LoginComponent,
     RegisterComponent,
-    ShopComponent
+    ShopComponent,
+    ShopCartComponent
   ],
   imports: [
     BrowserModule,

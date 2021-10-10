@@ -2,7 +2,7 @@
   border-bottom: 1px solid #e0eded;
   background: #fcfcfc;
   color: #333;
-  padding-top: 10px;
+  padding-top: 1%;
 }
 
 ol {
@@ -30,16 +30,16 @@ li:before {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
-  width: 100%;
   color: #fff;
+  height: 82.5vh;
   align-items: center;
   text-align: center;
-  display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 .ndsec {
-  margin: 70px;
+  margin: 4% auto 0 auto;
+  width: 60%;
 }
 .mais {
   background-color: rgba(255, 255, 255, 0.75);
@@ -47,7 +47,6 @@ li:before {
   color: black;
   text-align: center;
   padding: 0;
-  width: 700px;
   padding-bottom: 40px;
   margin: auto;
 }
@@ -58,22 +57,20 @@ li:before {
   font-weight: 500;
 }
 .form-body {
-  padding: 15px 20px;
-  text-align: start;
+  padding: 5% 5%;
+  text-align: center;
 }
 label {
   font-size: small;
 }
 input {
-  width: 318px;
-  height: 39px;
+  width: 100%;
+  height: 100%;
   background-color: rgb(235, 235, 235);
   border: 1px solid #cecece;
   border-radius: 3px;
 }
-.stlab {
-  margin-bottom: 20px;
-}
+
 .ckbx {
   padding-left: 21px;
   font-size: 15px;
