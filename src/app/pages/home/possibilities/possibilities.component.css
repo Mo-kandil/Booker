@@ -1,0 +1,15 @@
+p {
+    line-height: 22px;
+  }
+  h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+  }
+
+  .ico {
+    width: 20%;
+    margin-right: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+    float: left;
+  }

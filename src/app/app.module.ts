@@ -12,7 +12,14 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { ShopComponent } from './pages/shop/shop.component';
-import { ShopCartComponent } from './pages/shop/shop-cart/shop-cart.component'
+import { ShopCartComponent } from './pages/shop/shop-cart/shop-cart.component';
+import { FirstSlideComponent } from './pages/home/first-slide/first-slide.component';
+import { PossibilitiesComponent } from './pages/home/possibilities/possibilities.component';
+import { AboutUsComponent } from './pages/home/about-us/about-us.component';
+import { BookShowcaseComponent } from './pages/home/book-showcase/book-showcase.component';
+import { YoutubeVidComponent } from './pages/home/youtube-vid/youtube-vid.component';
+import { ContactUsComponent } from './pages/home/contact-us/contact-us.component';
+import { PerformanceComponent } from './pages/home/performance/performance.component'
 
 
 @NgModule({
@@ -24,7 +31,14 @@ import { ShopCartComponent } from './pages/shop/shop-cart/shop-cart.component'
     LoginComponent,
     RegisterComponent,
     ShopComponent,
-    ShopCartComponent
+    ShopCartComponent,
+    FirstSlideComponent,
+    PossibilitiesComponent,
+    AboutUsComponent,
+    BookShowcaseComponent,
+    YoutubeVidComponent,
+    ContactUsComponent,
+    PerformanceComponent
   ],
   imports: [
     BrowserModule,

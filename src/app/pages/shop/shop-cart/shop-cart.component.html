@@ -29,7 +29,7 @@
                                             data-abc="true">
                                             {{item.title}}
                                             </a>
-                                            <p class="text-muted small">SIZE: L <br> Brand: MAXTRA</p>
+                                            <p class="text-muted small">{{item.pages}} <br> {{item.author}}</p>
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -94,17 +94,10 @@
             </div>
             <div class="card" *ngFor="let item of selectedCardsItem">
                 <div class="card-body">
-                    <dl class="dlist-align">
-                        <dt>Total price:</dt>
-                        <dd class="text-right ml-3">{{item.price}}</dd>
-                    </dl>
-                    <dl class="dlist-align">
-                        <dt>Discount:</dt>
-                        <dd class="text-right text-danger ml-3">- $10.00</dd>
-                    </dl>
+                    
                     <dl class="dlist-align">
                         <dt>Total:</dt>
-                        <dd class="text-right text-dark b ml-3"><strong>$59.97</strong></dd>
+                        <dd class="text-right text-dark b ml-3"><strong>${{item.price}}</strong></dd>
                     </dl>
                     <hr> <a 
                     href="#" 

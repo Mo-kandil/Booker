@@ -1,0 +1,38 @@
+.second {
+  background-color: #3498db;
+  padding: 2.2% 0;
+  color:#fff;
+}
+.font-s {
+  font-size: small;
+}
+.padd{
+  padding-left: 20%;
+}
+.po {
+  width: 150%;
+}
+.third {
+  padding: 30px 0;
+  border-bottom: 1px solid #e0eded;
+  border-top: 1px solid #e0eded;
+}
+.cardz {
+  text-align: center;
+  padding: 15px;
+}
+
+p {
+    line-height: 22px;
+  }
+  h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+  }
+  
+  .ico {
+    width: 20%;
+    margin-right: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+  }

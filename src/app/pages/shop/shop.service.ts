@@ -11,60 +11,84 @@ export class ShopService {
     {
       "title":"JavaScript",
       "price":"$10",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w",
+      "pages":"Pages number : 250"
     },
     {
       "title":"HTML",
       "price":"$20",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w",
+      "pages":"Pages number : 250"
     },
     {
       "title":"css",
       "price":"$30",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w",
+      "pages":"Pages number : 250"
     },
     {
       "title":"ES6",
       "price":"$40",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/d32776"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/d32776",
+      "pages":"Pages number : 250"
     },
     {
       "title":"Dom",
       "price":"$50",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/f66b97"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/f66b97",
+      "pages":"Pages number : 250"
     },
     {
       "title":"BootStrap",
       "price":"$60",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/56a8c2"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/56a8c2",
+      "pages":"Pages number : 250"
     },
     {
       "title":"Angular",
       "price":"$70",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/b0f7cc"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/b0f7cc",
+      "pages":"Pages number : 250"
     },
     {
       "title":"Node Js",
       "price":"$80",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/54176f"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/54176f",
+      "pages":"Pages number : 250"
     },
     {
       "title":"Express",
       "price":"$90",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/51aa97"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/51aa97",
+      "pages":"Pages number : 250"
     },
     {
       "title":"MongoDB",
       "price":"$100",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/810b14"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/810b14",
+      "pages":"Pages number : 250"
     },{
       "title":"Sass",
       "price":"$110",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/810b14"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/810b14",
+      "pages":"Pages number : 250"
     },{
       "title":"Scss",
       "price":"$120",
-      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/810b14"
+      "author":"Made By MIKE JOHNSON",
+      "thumbnailUrl": "https://images.squarespace-cdn.com/content/v1/563890dce4b0facc12851d8f/1518946801042-JS3B63C79KXK126XSZAR/ke17ZwdGBToddI8pDm48kHdYgXE-SNQap4rdmLtCEYwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKceNcLXZzmps0wW0d931ZSLexUJQha8Su610NWeTt5j8Mo678SpNNKG6QIgZHJogjy/ZiSS+Front+and+Back.jpg?format=300w/810b14",
+      "pages":"Pages number : 250"
     },
   ]
   constructor() { }
