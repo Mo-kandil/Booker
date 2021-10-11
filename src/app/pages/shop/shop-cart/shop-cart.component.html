@@ -13,7 +13,7 @@
                             </tr>
                         </thead>
                         <tbody >
-                            <tr *ngFor="let item of selectedCardsItem">
+                            <tr *ngFor="let item of selectedCardsItem; index as i">
                                 <td>
                                     <figure class="itemside align-items-center" >
                                         <div 
@@ -29,7 +29,7 @@
                                             data-abc="true">
                                             {{item.title}}
                                             </a>
-                                            <p class="text-muted small">{{item.pages}} <br> {{item.author}}</p>
+                                            <p class="text-muted small">{{item.pages}} <br> {{item.author}} / </p>
                                         </figcaption>
                                     </figure>
                                 </td>
@@ -44,7 +44,7 @@
                                     class="price-wrap">
                                         <var 
                                         class="price"
-                                        >{{item.price}}
+                                        >${{item.price}}
                                         </var> 
                                         <small 
                                         class="text-muted"
@@ -60,7 +60,8 @@
                                         <i class="fa fa-heart"></i>
                                     </a> 
                                     <a 
-                                    href="" 
+                                    href="../shopCart"
+                                    (click)="removeFromCart()"
                                     class="btn btn-light" 
                                     data-abc="true">
                                     Remove
@@ -92,19 +93,22 @@
                     </form>
                 </div>
             </div>
-            <div class="card" *ngFor="let item of selectedCardsItem">
-                <div class="card-body">
-                    
+            <div class="card">
+                <div class="card-body" *ngFor="let item of selectedCardsItem">
+                    <dl class="dlist-align">
+                        <dt>Discount:</dt>
+                        <dd class="text-right text-danger ml-3">- $10.00</dd>
+                    </dl>
                     <dl class="dlist-align">
                         <dt>Total:</dt>
-                        <dd class="text-right text-dark b ml-3"><strong>${{item.price}}</strong></dd>
+                        <dd class="text-right text-dark b ml-3"><strong>${{item.price -10}}</strong></dd>
                     </dl>
                     <hr> <a 
-                    href="#" 
+                    routerLink="/login"
                     class="btn btn-out btn-primary btn-square btn-main" 
                     data-abc="true"> Make Purchase </a> 
                         <a 
-                        href="#" 
+                        routerLink="../shop"
                         class="btn btn-out btn-success btn-square btn-main mt-2" 
                         data-abc="true">Continue Shopping</a>
                 </div>

@@ -19,7 +19,9 @@ import { AboutUsComponent } from './pages/home/about-us/about-us.component';
 import { BookShowcaseComponent } from './pages/home/book-showcase/book-showcase.component';
 import { YoutubeVidComponent } from './pages/home/youtube-vid/youtube-vid.component';
 import { ContactUsComponent } from './pages/home/contact-us/contact-us.component';
-import { PerformanceComponent } from './pages/home/performance/performance.component'
+import { PerformanceComponent } from './pages/home/performance/performance.component';
+import { ForgetPasswordComponent } from './pages/login/forget-password/forget-password.component';
+import { NotFoundComponent } from './pages/login/not-found/not-found.component'
 
 
 @NgModule({
@@ -38,7 +40,9 @@ import { PerformanceComponent } from './pages/home/performance/performance.compo
     BookShowcaseComponent,
     YoutubeVidComponent,
     ContactUsComponent,
-    PerformanceComponent
+    PerformanceComponent,
+    ForgetPasswordComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

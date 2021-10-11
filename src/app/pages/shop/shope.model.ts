@@ -1,15 +1,17 @@
 export class Cards {
     public title: string;
-    public price: string;
+    public price: number;
     public author: string;
     public thumbnailUrl: string;
     public pages: string;
+    public id:number;
     
-    constructor(title:string, price:string,author: string ,thumbnailUrl:string ,pages: string){
+    constructor(title:string, price:number,author: string ,thumbnailUrl:string ,pages: string, id:number){
         this.title = title
         this.price = price;
         this.author = author
         this.thumbnailUrl = thumbnailUrl;
         this.pages = pages
+        this.id = id
     }
 }

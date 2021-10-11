@@ -37,6 +37,7 @@ export class ShopComponent implements OnInit {
 
   OnclickCard(item:Cards){
     this.shoService.saveItemShop(item);
+    localStorage.setItem('token', JSON.stringify(this.shoService.selectedCardsItem));
 }
 
 }

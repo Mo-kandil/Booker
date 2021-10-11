@@ -59,8 +59,8 @@
                         <label for="ConfirmPassword">Confirm Password</label>
                         <input 
                         type="password" 
-                        formControlName="confirmPassword">
-                        <div *ngIf="(confPassword?.invalid && (confPassword?.touched||confPassword?.dirty))||(confPassword?.invalid && isSubmitted)" class="alert border-danger btn-outline-danger my-3 war">
+                        formControlName="confPassword">
+                        <div *ngIf="(confPassword?.invalid && (confPassword?.touched))" class="alert border-danger btn-outline-danger my-3 war">
                             <div *ngIf="confPassword?.errors?.required">
                                 please Re-enter your password
                             </div>

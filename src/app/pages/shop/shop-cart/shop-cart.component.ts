@@ -10,16 +10,22 @@ import { Cards } from '../shope.model';
 export class ShopCartComponent implements OnInit {
   @Input() card!:Cards;
   constructor(private shoService:ShopService) { }
-
+  title!:string;
   selectedCardsItem :Cards []=[]
-
+  lastView:[]=[];
   ngOnInit(): void {
     if(this.shoService.selectedCardsItem){
-      console.log('CARDS',this.shoService.selectedCardsItem);
-      this.selectedCardsItem = this.shoService.selectedCardsItem
-    }
+      this.selectedCardsItem = JSON.parse(localStorage.getItem('token')|| '{}');
+      console.log('CARDS',this.selectedCardsItem);
+      
+      
+    }  
   }
-  addToCart(){
-    this.shoService.cardSelected.emit(this.card);
+  
+  removeFromCart(){
+    localStorage.removeItem('token')
+    console.log(this.title);
+    
   }
+
 }
