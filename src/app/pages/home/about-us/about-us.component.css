@@ -5,9 +5,11 @@
 }
 .font-s {
   font-size: small;
+  margin-left: 3%;
+  
 }
 .padd{
-  padding-left: 20%;
+  padding-left: 15%;
 }
 .po {
   width: 150%;
@@ -19,7 +21,7 @@
 }
 .cardz {
   text-align: center;
-  padding: 20px;
+  padding: 10%;
 }
 
 p {
