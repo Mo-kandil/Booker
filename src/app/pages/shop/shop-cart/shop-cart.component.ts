@@ -9,7 +9,9 @@ import { Cards } from '../shope.model';
 })
 export class ShopCartComponent implements OnInit {
   @Input() card!:Cards;
-  constructor(private shoService:ShopService) { }
+  constructor(private shoService:ShopService) { 
+    
+  }
   title!:string;
   selectedCardsItem :Cards []=[]
   lastView:[]=[];
