@@ -40,6 +40,7 @@
                         <label for="password">Password</label>
                         <input 
                         type="password" 
+                        class="form-control"
                         formControlName="password">
                         <div *ngIf="(password?.invalid && (password?.touched||password?.dirty))||(password?.invalid && isSubmitted)" class="alert border-danger btn-outline-danger my-3 war">
                         
@@ -59,6 +60,7 @@
                         <label for="ConfirmPassword">Confirm Password</label>
                         <input 
                         type="password" 
+                        class="form-control"
                         formControlName="confPassword">
                         <div *ngIf="(confPassword?.invalid && (confPassword?.touched))" class="alert border-danger btn-outline-danger my-3 war">
                             <div *ngIf="confPassword?.errors?.required">
@@ -68,7 +70,7 @@
                     </div>
                     </form>
 
-                    <div class="my-2">
+                    <div class="py-2">
                         <button type="button" class="btn btn-success btn-s btn-icon-right btn-sign-in pull-right">
                             <span>Register</span>
                         </button>

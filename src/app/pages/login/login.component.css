@@ -72,7 +72,7 @@ input {
 }
 
 .ckbx {
-  padding-left: 21px;
+  padding-left: 10%;
   font-size: 15px;
   line-height: 27px;
 }
@@ -81,8 +81,7 @@ input {
   max-width: 17px;
 }
 .btn-s {
-  margin-top: 5px;
-  padding: 6px 12px;
+  margin-bottom: 20px;
   font-size: 14px;
   width: 100%;
   font-size: large;
